@@ -138,10 +138,6 @@ for project, link in PROJECTS.items():
 st.write('\n')
 st.subheader("Testimonials")
 st.write("---")
-testimonial_container = st.container()
-with testimonial_container:
-    for testimonial in TESTIMONIALS:
-        st.write(f"💬 {testimonial}")
 
 st.markdown(
     """

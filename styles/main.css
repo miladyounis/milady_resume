@@ -26,6 +26,10 @@ hr {
 footer {visibility: hidden;}
 header {visibility: hidden;}
 
+/* main.css */
+
+/* Add your existing CSS here */
+
 .testimonial-slider {
     display: flex;
     overflow-x: auto;
@@ -37,12 +41,12 @@ header {visibility: hidden;}
 
 .testimonial-item {
     display: inline-block;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 20px;
     margin: 0 10px;
     min-width: 300px;
     scroll-snap-align: start;
     white-space: normal;
+    color: #ffffff; /* Ensure text color is visible */
 }
