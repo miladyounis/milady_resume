@@ -74,7 +74,7 @@ st.subheader("Hard Skills")
 st.write(
     """
 - 👩‍💻 Programming: Python (Pandas, Matplotlib, Numpy), SQL, VBA
-- 📊 Data Visulization: SAP Analytics Cloud, MS Excel, Matplotlib & Seaborn, Tableau
+- 📊 Data Visulization: SAP Analytics Cloud, MS Excel, Tableau, ServiceNow
 - 📚 Modeling: Logistic regression, linear regression, decition trees
 - 🗄️ Databases: MySQL, SAP HANA
 """
