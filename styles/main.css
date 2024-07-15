@@ -45,7 +45,7 @@ header {visibility: hidden;}
     border-radius: 5px;
     padding: 20px;
     margin: 0 10px;
-    min-width: 300px;
+    min-width: 500px;
     scroll-snap-align: start;
     white-space: normal;
     color: #ffffff; /* Ensure text color is visible */
