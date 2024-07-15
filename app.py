@@ -124,7 +124,10 @@ st.write(
 
 # --- JOB 2
 st.write('\n')
-st.write("🚧", "**Intern in the Database Cloud Operations Team | SAP**")
+st.markdown(
+    "🚧 <span style='font-size:20px; font-weight: bold;'>Intern in the Database Cloud Operations Team | SAP</span>",
+    unsafe_allow_html=True
+)
 st.write("10/2022 - 04/2024")
 st.write(
     """
@@ -136,7 +139,10 @@ st.write(
 
 # --- JOB 3
 st.write('\n')
-st.write("🚧", "**Data Processor Internship Program | Dynata**")
+st.markdown(
+    "🚧 <span style='font-size:20px; font-weight: bold;'>Data Processor Internship Program | Dynata</span>",
+    unsafe_allow_html=True
+)
 st.write("03/2022 - 04/2022")
 st.write(
     """
