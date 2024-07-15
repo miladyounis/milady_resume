@@ -23,6 +23,12 @@ PROJECTS = {
     "🏆 Pulling Data from a Bitcoin Full Node": "https://gist.github.com/miladyounis/ea349cf09a982ee26a2e55986710a50c#blockchain-information"
 }
 
+TESTIMONIALS = {
+    "Milad is a highly skilled data analyst with a keen eye for detail.",
+    "His ability to translate data into actionable insights is unparalleled.",
+    "Milad consistently exceeds expectations and delivers top-notch results."
+}
+
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 
