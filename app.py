@@ -127,3 +127,23 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
+# --- TESTIMONIALS ---
+st.write('\n')
+st.subheader("Testimonials")
+st.write("---")
+testimonial_container = st.container()
+with testimonial_container:
+    for testimonial in TESTIMONIALS:
+        st.write(f"💬 {testimonial}")
+
+st.markdown(
+    """
+    <div class="testimonial-slider">
+        <div class="testimonial-item">Milad is a highly skilled data analyst with a keen eye for detail.</div>
+        <div class="testimonial-item">His ability to translate data into actionable insights is unparalleled.</div>
+        <div class="testimonial-item">Milad consistently exceeds expectations and delivers top-notch results.</div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
