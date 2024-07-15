@@ -7,7 +7,7 @@ css_file = current_dir / "styles" / "main.css"
 resume_files = current_dir / "assets" / "CV - MiladYounis.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
-PAGE_TITLE = "Personal Porfolio | Milad Younis"
+PAGE_TITLE = "Data Nerd | Milad Younis"
 PAGE_ICON = ":wave:"
 NAME = "Milad Younis"
 DESCRIPTION = """
