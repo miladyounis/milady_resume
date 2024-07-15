@@ -26,7 +26,10 @@ PROJECTS = {
 TESTIMONIALS = {
     "Milad is a highly skilled data analyst with a keen eye for detail.",
     "His ability to translate data into actionable insights is unparalleled.",
-    "Milad consistently exceeds expectations and delivers top-notch results."
+    """\
+"Working with Milad on TICO Reporting has been a real pleasure. Milad's knack for understanding complex concepts and the meticulous attention to detail Milad brings to the table is truly impressive. I appreciate the dedication and hard work Milad has put into this. Looking forward to more collaborations in the near future!"
+
+{}""".format("Rayan Dutta, Specialist DevOps Engineer at SAP".rjust(100))
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
