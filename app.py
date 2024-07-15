@@ -34,14 +34,12 @@ TESTIMONIALS = {
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
-
-# --- LOAD CSS, PDF & PROFIL PIC ---
+# --- LOAD CSS, PDF & PROFILE PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_files, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
-
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
@@ -67,7 +65,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qulifications")
+st.subheader("Experience & Qualifications")
 st.write(
     """
 - ✔️ 2 Years experience extracting actionable insights from data
@@ -83,8 +81,8 @@ st.subheader("Hard Skills")
 st.write(
     """
 - 👩‍💻 Programming: Python (Pandas, Matplotlib, Numpy), SQL, VBA
-- 📊 Data Visulization: SAP Analytics Cloud, MS Excel, Tableau, ServiceNow
-- 📚 Modeling: Logistic regression, linear regression, decition trees
+- 📊 Data Visualization: SAP Analytics Cloud, MS Excel, Tableau, ServiceNow
+- 📚 Modeling: Logistic regression, linear regression, decision trees
 - 🗄️ Databases: MySQL, SAP HANA
 """
 )
@@ -99,7 +97,7 @@ st.write("🚧", "**Data Analyst & Project Coordinator Specialist | SAP**")
 st.write("04/2024 - Present")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
+- ► Used PowerBI and SQL to redefine and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
 - ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
 - ► Redesigned data model through iterations that improved predictions by 12%
 """
@@ -111,7 +109,7 @@ st.write("🚧", "**Intern in the Database Cloud Operations Team | SAP**")
 st.write("10/2022 - 04/2024")
 st.write(
     """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
+- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales efforts by 12%
 - ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
 - ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
 """
@@ -128,7 +126,6 @@ st.write(
 - ► Business Understanding and Critical Thinking
 """
 )
-
 
 # --- Projects & Accomplishments ---
 st.write('\n')
@@ -147,7 +144,11 @@ st.markdown(
     <div class="testimonial-slider">
         <div class="testimonial-item">Milad is a highly skilled data analyst with a keen eye for detail.</div>
         <div class="testimonial-item">His ability to translate data into actionable insights is unparalleled.</div>
-        <div class="testimonial-item">Milad consistently exceeds expectations and delivers top-notch results.</div>
+        <div class="testimonial-item">
+            "Working with Milad on TICO Reporting has been a real pleasure. Milad's knack for understanding complex concepts and the meticulous attention to detail Milad brings to the table is truly impressive. I appreciate the dedication and hard work Milad has put into this. Looking forward to more collaborations in the near future!"
+            <br><br>
+            <div style="text-align: right;">Rayan Dutta, Specialist DevOps Engineer at SAP</div>
+        </div>
     </div>
     """,
     unsafe_allow_html=True
