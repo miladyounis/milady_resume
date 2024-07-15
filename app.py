@@ -109,7 +109,10 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Data Analyst & Project Coordinator Specialist | SAP**")
+st.markdown(
+    "🚧 <span style='font-size:20px; font-weight: bold;'>Data Analyst & Project Coordinator Specialist | SAP</span>",
+    unsafe_allow_html=True
+)
 st.write("04/2024 - Present")
 st.write(
     """
