@@ -77,7 +77,7 @@ with col2:
     st.markdown(
         """
         <div style="display: flex; gap: 10px;">
-            <a href="https://www.linkedin.com/in/milad-younis/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/milad-younis/" target="_blank">LinkedIn</a> |
             <a href="https://gist.github.com/miladyounis" target="_blank">GitHub</a>
         </div>
         """,
