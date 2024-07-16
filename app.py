@@ -73,6 +73,21 @@ with col2:
     )
     st.write("📫", EMAIL)
 
+# --- SUMMARY ---
+st.write('\n')
+st.subheader("Summary")
+st.write(
+    """
+    Life-long data nerd, leveraging data in my personal life as well as professional career, my professional experience mostly revolves 
+    around the ITSM and ITIL cloud operations domain knowledge, working in this big organization environment especially taught me the importance
+    performance-optimized queries and code, understandability of code and lastly documentation.
+
+    On the personal side of things, I absolutely treasure time with the people in my life, climbing and hiking hobbyist, I am also a huge fan
+    and propent of Bitcoin and Nostr, running my own full bitcoin node, nostr relay, contributing to the space in various ways most tangibly as a
+    local meet-up co-founder.
+    """
+)
+
 # --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
@@ -102,6 +117,19 @@ st.write(
 - 📚 Other: Git & Github, APIs, Streamlit 
 """
 )
+
+st.write('\n')
+st.subheader("Soft Skills")
+st.write(
+    """
+- ⏰ Time Management Fundamentals
+- 📋 Project Management Fundamentals
+- 🗣️ Effective Communication
+- 📚 Continuous Learning
+- 🚀 Initiative Taker
+"""
+)
+
 
 # --- WORK HISTORY ---
 st.write('\n')
