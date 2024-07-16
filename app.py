@@ -96,10 +96,10 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Pandas, Matplotlib, Numpy), SQL, VBA
+- 👩‍💻 Programming: Python (Pandas, Matplotlib, Seaborn), SQL, VBA
 - 📊 Data Visualization: SAP Analytics Cloud, MS Excel, Tableau, ServiceNow
-- 📚 Modeling: Logistic regression, linear regression, decision trees
 - 🗄️ Databases: MySQL, SAP HANA
+- 📚 Other: Git & Github, APIs, Streamlit 
 """
 )
 
@@ -116,9 +116,10 @@ st.markdown(
 st.write("04/2024 - Present")
 st.write(
     """
-- ► Used PowerBI and SQL to redefine and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- ► Used SQL Modeling in an organization wide team daily to build, maintain, upgrade and fix 5+ critical source of truth dashboards
+- ► Spotted anamolies that shed light on certain business practices that led to improvements
+- ► Initiated and coordinated an organization wide quality assurance project that helped increase quality by 36%
+- ► Provided an overview of the whole customer communication landscape for the first time in the organization, which sparked 2+ improvement projects
 """
 )
 
@@ -131,9 +132,10 @@ st.markdown(
 st.write("10/2022 - 04/2024")
 st.write(
     """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales efforts by 12%
-- ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
-- ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
+- ► Automated and Upgraded 10+ monthly hours of manual reporting efforts using Macros, VBA and other BI tools
+- ► Took initiative on ad-hoc reports and state analysis to derive business value and improvement plans
+- ► Developed a python script to assist engineers in retrieving critical information in time-sensitive situations improving our KPIs by 300%
+- ► Helped 5+ teams onboard to ServiceNow as a single point of reporting expert
 """
 )
 
