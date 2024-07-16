@@ -72,6 +72,10 @@ with col2:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
+    
+    # Social media links below email with icons
+    st.write('[LinkedIn](https://www.linkedin.com/in/milad-younis/) :linkedin:')
+    st.write('[Github](https://gist.github.com/miladyounis) :github:')
 
 # --- SUMMARY ---
 st.write('\n')
@@ -87,12 +91,6 @@ st.write(
     local meet-up co-founder.
     """
 )
-
-# --- SOCIAL LINKS ---
-st.write('\n')
-cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
