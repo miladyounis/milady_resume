@@ -5,13 +5,13 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__File__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_files = current_dir / "assets" / "CV - MiladYounis.pdf"
-profile_pic = current_dir / "assets" / "profile-pic (2).png"
+profile_pic = current_dir / "assets" / "Profile picture.png"
 
 PAGE_TITLE = "Data Nerd | Milad Younis"
 PAGE_ICON = ":wave:"
 NAME = "Milad Younis"
 DESCRIPTION = """
-Data Analyst and Project Coordinator Specialist, Translating Data to Actionable Improvements
+Data Analyst and Project Coordinator Specialist, Translating Data into Actionable Improvements
 """
 EMAIL = "miladyounis@pm.me"
 SOCIAL_MEDIA = {
