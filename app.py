@@ -72,10 +72,17 @@ with col2:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
-    
-    # Social media links below email with icons
-    st.write('[LinkedIn](https://www.linkedin.com/in/milad-younis/) :linkedin:')
-    st.write('[Github](https://gist.github.com/miladyounis) :github:')
+
+    # Social media links below email side by side without icons
+    st.markdown(
+        """
+        <div style="display: flex; gap: 10px;">
+            <a href="https://www.linkedin.com/in/milad-younis/" target="_blank">LinkedIn</a>
+            <a href="https://gist.github.com/miladyounis" target="_blank">GitHub</a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 # --- SUMMARY ---
 st.write('\n')
