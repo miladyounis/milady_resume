@@ -198,6 +198,13 @@ st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 
+# Add disclaimer
+st.write(
+    """
+    **Disclaimer**: Unforunately some of my coolest projects are confidential. If I told you, I'd have to make you sign an NDA 😅. However above are some things I did on the side.
+    """
+)
+
 # --- TESTIMONIALS ---
 st.write('\n')
 st.subheader("Testimonials")
