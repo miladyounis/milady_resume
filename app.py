@@ -153,10 +153,11 @@ st.markdown(
 st.write("04/2024 - Present")
 st.write(
     """
-- ► Used SQL Modeling in an organization wide team daily to build, maintain, upgrade and fix 5+ critical source of truth dashboards
+- ► Used SQL Modeling in an organization wide team daily to build, maintain, upgrade and fix 5+ source of truth dashboards
 - ► Spotted anomalies that shed light on certain business practices that led to improvements
-- ► Initiated and coordinated an organization wide quality assurance project that helped increase quality by 36%
+- ► Initiated and coordinated an organization wide quality assurance project that helped increase incident quality by 36%
 - ► Provided an overview of the whole customer communication landscape for the first time in the organization, which sparked 2+ improvement projects
+- ► Presented and participated in CoP sessions on GenAI in the workplace organization-wide to 170+ people
 """
 )
 
@@ -169,10 +170,10 @@ st.markdown(
 st.write("10/2022 - 04/2024")
 st.write(
     """
-- ► Automated and Upgraded 10+ monthly hours of manual reporting efforts using Macros, VBA and other BI tools
+- ► Automated and Upgraded 20+ monthly hours of manual reporting efforts using Macros, VBA and other BI tools
 - ► Took initiative on ad-hoc reports and state analysis to derive business value and improvement plans
 - ► Developed a python script to assist engineers in retrieving critical information in time-sensitive situations improving our KPIs by 300%
-- ► Helped 5+ teams onboard to ServiceNow as a single point of reporting expert
+- ► Helped 5+ teams onboard to ServiceNow as a single point of reporting expertise
 """
 )
 
