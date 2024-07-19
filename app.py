@@ -229,3 +229,23 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
+# --- DATA BOOKS I RECOMMEND ---
+st.write('\n')
+st.subheader("Data Books I Recommend")
+st.write("---")
+
+# Load book covers
+books = [
+    "big data.jpg",
+    "calling bullshit.jpg",
+    "math.png",
+    "WMD.jpg"
+]
+
+cols = st.columns(len(books))
+
+for col, book in zip(cols, books):
+    with col:
+        book_cover = current_dir / "assets" / book
+        image = Image.open(book_cover)
+        st.image(image, use_column_width=True)

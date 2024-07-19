@@ -71,3 +71,15 @@ header {visibility: hidden;}
 .testimonial-nav-right {
     right: 0;
 }
+
+.book-cover {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.book-cover:hover {
+    transform: scale(1.05);
+}
