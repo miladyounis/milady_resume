@@ -41,7 +41,6 @@ header {visibility: hidden;}
     margin: 0 10px;
     width: 100%;
     color: #ffffff; /* Ensure text color is visible */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     font-size: 16px;
     line-height: 1.5;
 }
