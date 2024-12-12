@@ -20,7 +20,8 @@ SOCIAL_MEDIA = {
 }
 PROJECTS = {
     "🏆 Delivery Company SQL Queries": "https://gist.github.com/miladyounis/e7b57fca9a2688055bb464d69061d257",
-    "🏆 Pulling Data from a Bitcoin Full Node": "https://gist.github.com/miladyounis/ea349cf09a982ee26a2e55986710a50c#blockchain-information"
+    "🏆 Pulling Data from a Bitcoin Full Node": "https://gist.github.com/miladyounis/ea349cf09a982ee26a2e55986710a50c#blockchain-information",
+    "🏆 Car Market Research & Analysis through scraping": "https://github.com/miladyounis/mobilebg_data_scraper"
 }
 
 TESTIMONIALS = [
