@@ -82,8 +82,8 @@ with col2:
         """
         <div style="display: flex; gap: 10px;">
             <a href="https://www.linkedin.com/in/milad-younis/" target="_blank">LinkedIn</a> |
-            <a href="https://gist.github.com/miladyounis" target="_blank">GitHub</a>
-            <a href="https://github.com/miladyounis" target="_blank">GitHub</a>
+            <a href="https://gist.github.com/miladyounis" target="_blank">GitHub Gists</a> |
+            <a href="https://github.com/miladyounis" target="_blank">GitHub Repos</a>
         </div>
         """,
         unsafe_allow_html=True
