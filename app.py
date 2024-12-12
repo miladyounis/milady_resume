@@ -83,6 +83,7 @@ with col2:
         <div style="display: flex; gap: 10px;">
             <a href="https://www.linkedin.com/in/milad-younis/" target="_blank">LinkedIn</a> |
             <a href="https://gist.github.com/miladyounis" target="_blank">GitHub</a>
+            <a href="https://github.com/miladyounis" target="_blank">GitHub</a>
         </div>
         """,
         unsafe_allow_html=True
@@ -147,10 +148,26 @@ st.write("---")
 
 # --- JOB 1
 st.markdown(
-    "🚧 <span style='font-size:20px; font-weight: bold;'>Data Analyst & Project Coordinator Specialist | SAP</span>",
+    "🚧 <span style='font-size:20px; font-weight: bold;'>Data Analyst for Product Security Analytics Specialist | SAP</span>",
     unsafe_allow_html=True
 )
-st.write("04/2024 - Present")
+st.write("09/2024 - Present")
+st.write(
+    """
+- ► Collecting data through APIs from various vulnerability and cyber databases as well as security scanners
+- ► Modeling and transforming data with performance in mind for dashboard purposes that is consumed by management level
+- ► Providing an API integration to 50,000+ SAP developers for security compliance metrics
+- ► Fascilitating and harmonizing SAST, DAST and OSVM data for all of SAP applications, source code and open source libraries in use 
+- ► Regularly presenting findings with security experts and supporting their processes
+"""
+)
+
+# --- JOB 1
+st.markdown(
+    "🚧 <span style='font-size:20px; font-weight: bold;'>Data Analyst & ITSM Project Coordinator Specialist | SAP</span>",
+    unsafe_allow_html=True
+)
+st.write("04/2024 - 09/2024")
 st.write(
     """
 - ► Used SQL Modeling in an organization wide team daily to build, maintain, upgrade and fix 5+ source of truth dashboards
@@ -164,7 +181,7 @@ st.write(
 # --- JOB 2
 st.write('\n')
 st.markdown(
-    "🚧 <span style='font-size:20px; font-weight: bold;'>Intern in the Database Cloud Operations Team | SAP</span>",
+    "🚧 <span style='font-size:20px; font-weight: bold;'>Reporting Intern for Cloud Operations | SAP</span>",
     unsafe_allow_html=True
 )
 st.write("10/2022 - 04/2024")
