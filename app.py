@@ -11,7 +11,7 @@ PAGE_TITLE = "Data Nerd | Milad Younis"
 PAGE_ICON = ":wave:"
 NAME = "Milad Younis"
 DESCRIPTION = """
-Data Analyst, Translating Data into Actionable Improvements
+Data Analyst: Translating Data into Actionable Improvements
 """
 EMAIL = "miladyounis@pm.me"
 SOCIAL_MEDIA = {
@@ -50,6 +50,13 @@ TESTIMONIALS = [
     "I want to express my sincere appreciation for your outstanding work during your internship. Your dedication, enthusiasm, and contributions have been truly impressive, making you an invaluable part of our team. Throughout your time here, you approached every task with a positive attitude and a hunger for learning. Your attention to detail and creative thinking significantly influenced the Reporting topics you worked on. The custom reports in SAC, dashboards in Snow, and swift additions to global topics in the Reporting stream were particularly noteworthy, showcasing professionalism and skill beyond your experience. Your positive attitude, willingness to help others, and initiative in seeking feedback have made you an inspiring team member. Thank you for your exceptional work and commitment to excellence. You've left a lasting impression on our team, and we are confident that you will continue to excel in your future endeavors."
     <br><br>
     <div style="text-align: right;">Ilia Kurdalanov, Cloud Operations Manager at SAP</div>
+    """,
+    """
+    "I just wanted to take a moment to say thank you for your exceptional work on the SAC Dashboard and CXOne. Your fast learning, deep knowledge, and innovative suggestions have truly made a difference in our project.
+    <br><br>
+    Thank you for bringing your expertise to the table and for always striving to improve our work. I look forward to continuing to collaborate with you in the future."
+    <br><br>
+    <div style="text-align: right;">Silke Lubjuhn, Expert Business Engager at SAP</div>
     """
 ]
 
@@ -192,21 +199,6 @@ st.write(
 - ► Took initiative on ad-hoc reports and state analysis to derive business value and improvement plans
 - ► Developed a python script to assist engineers in retrieving critical information in time-sensitive situations improving our KPIs by 300%
 - ► Helped 5+ teams onboard to ServiceNow as a single point of reporting expertise
-"""
-)
-
-# --- JOB 3
-st.write('\n')
-st.markdown(
-    "🚧 <span style='font-size:20px; font-weight: bold;'>Data Processor Internship Program | Dynata</span>",
-    unsafe_allow_html=True
-)
-st.write("03/2022 - 04/2022")
-st.write(
-    """
-- ► Survey Programming & Analysis
-- ► Data Visualization and Reporting
-- ► Business Understanding and Critical Thinking
 """
 )
 
