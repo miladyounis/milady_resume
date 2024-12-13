@@ -11,7 +11,7 @@ PAGE_TITLE = "Data Nerd | Milad Younis"
 PAGE_ICON = ":wave:"
 NAME = "Milad Younis"
 DESCRIPTION = """
-Data Analyst and Project Coordinator Specialist, Translating Data into Actionable Improvements
+Data Analyst, Translating Data into Actionable Improvements
 """
 EMAIL = "miladyounis@pm.me"
 SOCIAL_MEDIA = {
