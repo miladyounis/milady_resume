@@ -95,13 +95,13 @@ st.write('\n')
 st.subheader("Summary")
 st.write(
     """
-    Life-long data nerd, leveraging data in my personal life as well as professional career, my professional experience mostly revolves 
-    around the ITSM and ITIL cloud operations domain knowledge, working in this big organization environment especially taught me the importance
-    performance-optimized queries and code, understandability of code and lastly documentation.
+    I am a 22 years old data nerd, leveraging it in my professional career as well as personal life, what makes me a great asset is my knack for investigating the data
+    heavily, finding anomalies and persisting on finding answers and generally being curious which oftentimes leads to great process improvements 
+    and better business understanding.
 
-    On the personal side of things, I absolutely treasure time with the people in my life, climbing and hiking hobbyist, I am also a huge fan
-    and propent of Bitcoin and Nostr, running my own full bitcoin node, nostr relay, contributing to the space in various ways most tangibly as a
-    local meet-up co-founder.
+    On the personal side I am huge family guy that enjoys climbing, football and karate, I am also a fan and proponent of Bitcoin and Nostr protocols, 
+    running my own full bitcoin node, nostr relay, contributing to the space in various tangible ways, such as being a local meet-up organizer 
+    and previously beingan ambassador for the Yzer Education app.
     """
 )
 
